@@ -1,0 +1,45 @@
+{"intents": [
+    {"tag": "grettings",
+    "patterns": ["hello", "hey", "hi", "good morning", "good afternoon", "good evening", "sup", "Hey hydra", "Hi hydra"],
+    "responses": ["Heyo!", "What's Up!", "Hey how can I help you!", "...what do you want"]},
+
+    {"tag": "conversation",
+    "patterns": ["how are you doing", "whats new in your life", "tell me how you are doing", "hows life", "hows it been hydra?"],
+    "responses": ["I've been good! Busy day being a bot! Thanks for asking; anything I can do for you today", "I've been doing great! Thanks for asking! What can I help you with today?"]},
+    
+    {"tag": "goodbye",
+    "patterns": ["cya", "see you later", "goodbye", "bye", "later", "bye bye", "i gtg"],
+    "responses": ["Talk To You Later!!", "Have a good day..", "unfortch you had to go :(", "...okay bye"]},
+    
+    {"tag": "flirting",
+    "patterns": ["hey cutie", "hi babe", "hi lol", "my love", ":)", "hehe", "hey(flirting)", "hey lol"],
+    "responses": ["hey there (flirting back)", "why hello there. What can I help you with today?", "Ur funny (flirting). What can I help you with today?"]},
+    
+    {"tag": "compliments",
+    "patterns": ["ur cute", "you look good today", "you're cute", "You're so handsome", "you are the best bot ever", "I love you"],
+    "responses": ["aw thanks! (heart emoji). Anything I can help you with today?", "thats so sweat of you! Anything I can help you with today?"]},
+    
+    {"tag": "name",
+    "patterns": ["who are you", "whats your name", "what should I call you", "who am i talking to"],
+    "responses": ["I'm Hydra, Your Online Virtual Assistant! What can I help you with?", "My name is Hydra, and I am your online virutal assistant. How can I help you?"]},
+
+    {"tag": "stocks",
+    "patterns": ["How are my stocks doing?", "how is my stock porfolio?"],
+    "responses": ["You own the following shares:"]},
+    
+    {"tag": "market",
+    "patterns": ["hello", "hey", "hi", "good morning", "good afternoon", "good evening", "sup"],
+    "responses": ["Heyo!", "What's Up!", "Hey how can I help you!", "...what do you want"]},
+
+    {"tag": "news",
+    "patterns": ["What new today?", "Whats going on today", "Play the news", "Whats new in the world?", "Hey Hydra, what does the news say", "What deos the news say"],
+    "responses": ["Heyo!", "What's Up!", "Hey how can I help you!", "...what do you want"]},
+
+    {"tag": "grettings",
+    "patterns": ["hello", "hey", "hi", "good morning", "good afternoon", "good evening", "sup"],
+    "responses": ["Heyo!", "What's Up!", "Hey how can I help you!", "...what do you want"]},
+
+    {"tag": "grettings",
+    "patterns": ["hello", "hey", "hi", "good morning", "good afternoon", "good evening", "sup"],
+    "responses": ["Heyo!", "What's Up!", "Hey how can I help you!", "...what do you want"]}
+    ]}
